@@ -1,0 +1,88 @@
+# AuthType Basic
+# AuthName "Password Protected"
+# AuthUserFile /var/www/tacotroc/production/.htpasswd
+# Require valid-user
+
+php_value upload_max_filesize 64M
+php_value post_max_size 128M
+php_value memory_limit 256M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+RedirectPermanent /17eme-edition-des-belles-mecaniques.html /17eme-edition-des-belles-mecaniques
+RedirectPermanent /roger-et-sa-renault-monaquatre.html /roger-et-sa-renault-monaquatre
+RedirectPermanent /ford-fiesta.html /ford-fiesta
+RedirectPermanent /importer-vehicule-ancien.html /importer-vehicule-ancien
+RedirectPermanent /un-healey-retour.html /un-healey-retour
+RedirectPermanent /phares.html /phares
+RedirectPermanent /la-decouverte.html /la-decouverte
+RedirectPermanent /art-decoratif-voiture-ancienne.html /art-decoratif-voiture-ancienne
+RedirectPermanent /autocollants-pare-brise-ancienne.html /autocollants-pare-brise-ancienne
+RedirectPermanent /jamais-deux-sans-deux.html /jamais-deux-sans-deux
+RedirectPermanent /voiture-de-collection-definition.html /voiture-de-collection-definition
+RedirectPermanent /le-saint-patron-des-voyageurs.html /le-saint-patron-des-voyageurs
+RedirectPermanent /pascal-est-lattraction.html /pascal-est-lattraction
+RedirectPermanent /pauline-et-sa-jeep-hotchkiss.html /pauline-et-sa-jeep-hotchkiss
+RedirectPermanent /vous-allez-atteindre-les-300kmh.html /vous-allez-atteindre-les-300kmh
+RedirectPermanent /records-vitesse-voiture-electrique-100km-h.html /records-vitesse-voiture-electrique-100km-h
+RedirectPermanent /rencontre-oldtimerfarm.html /rencontre-oldtimerfarm
+RedirectPermanent /un-vehicule-historique.html /un-vehicule-historique
+RedirectPermanent /plein-phare-sur-les-benevoles-du-centre-culturel-de-ladeuze.html /plein-phare-sur-les-benevoles-du-centre-culturel-de-ladeuze
+RedirectPermanent /preparer-restauration-voiture-ancienne.html /preparer-restauration-voiture-ancienne
+RedirectPermanent /demarches-administratives-vehicule-collection.html /demarches-administratives-vehicule-collection
+RedirectPermanent /assurance-certificat-immatriculation-collection.html /assurance-certificat-immatriculation-collection
+RedirectPermanent /plaques-immatriculation-collection.html /plaques-immatriculation-collection
+RedirectPermanent /depart-en-vacances.html /depart-en-vacances
+RedirectPermanent /fiat-tipo-elue-voiture-de-lannee-1989.html /fiat-tipo-elue-voiture-de-lannee-1989
+RedirectPermanent /record-vitesses-400kmh.html /record-vitesses-400kmh
+RedirectPermanent /ma-belle-endormie.html /ma-belle-endormie
+RedirectPermanent /premiere-station-service.html /premiere-station-service
+RedirectPermanent /le-chargement-et-le-retour.html /le-chargement-et-le-retour
+RedirectPermanent /jean-paul-rend-son-expertise-accessible.html /jean-paul-rend-son-expertise-accessible
+RedirectPermanent /le-choix-dune-voiture-populaire.html /le-choix-dune-voiture-populaire
+RedirectPermanent /acheter-sa-voiture-a-restaurer.html /acheter-sa-voiture-a-restaurer
+RedirectPermanent /moteurs-a-combustion.html /moteurs-a-combustion
+RedirectPermanent /envoyez-la-vapeur.html /envoyez-la-vapeur
+RedirectPermanent /la-mise-en-pieces.html /la-mise-en-pieces
+RedirectPermanent /remonter-la-manche.html /remonter-la-manche
+RedirectPermanent /sous-les-jupes-de-sandrillonnette-renovation-ford-y.html /sous-les-jupes-de-sandrillonnette-renovation-ford-y
+RedirectPermanent /le-touquet-rassemblement-voitures-collections.html /le-touquet-rassemblement-voitures-collections
+RedirectPermanent /gazogene-fonctionnement-legislation.html /gazogene-fonctionnement-legislation
+RedirectPermanent /100eme-anniversaire-citroen.html /100eme-anniversaire-citroen
+RedirectPermanent /flers.html /flers
+RedirectPermanent /andre-et-sa-sidonie.html /andre-et-sa-sidonie
+RedirectPermanent /alain-et-sa-simca-aronde.html /alain-et-sa-simca-aronde
+RedirectPermanent /exposition-voitures-anciennes-wervicq-sud.html /exposition-voitures-anciennes-wervicq-sud
+RedirectPermanent /association-festi-retro-lens.html /association-festi-retro-lens
+RedirectPermanent /auberchicourt-voitures-anciennes.html /auberchicourt-voitures-anciennes
+RedirectPermanent /loffre-photo-evenement.html /loffre-photo-evenement
+RedirectPermanent /75-anniversaire-liberation-douai.html /75-anniversaire-liberation-douai
+RedirectPermanent /la-coupole-une-citroen-traction-suspendue-au-temps.html /la-coupole-une-citroen-traction-suspendue-au-temps
+RedirectPermanent /choisir-sa-voiture-a-restaurer.html /choisir-sa-voiture-a-restaurer
+RedirectPermanent /rencontre-avec-sam-roberts.html /rencontre-avec-sam-roberts
+RedirectPermanent /pierre-yves-et-sa-sunbeam.html /pierre-yves-et-sa-sunbeam
+RedirectPermanent /la-remise-en-route-ancienne-voiture.html /la-remise-en-route-ancienne-voiture
+RedirectPermanent /philippe-nest-jamais-trois-sans-deux.html /philippe-nest-jamais-trois-sans-deux
+RedirectPermanent /jean-francois-et-sa-saab.html /jean-francois-et-sa-saab
+RedirectPermanent /jeu-mensuel-car-spotter-tacotroc.html /jeu-mensuel-car-spotter-tacotroc
+RedirectPermanent /renovation-ford-y-chap-10.html /renovation-ford-y-chap-10
+RedirectPermanent /du-fil-a-retordre.html /du-fil-a-retordre
+RedirectPermanent /semaine-bleu-mouvaux-voitures-anciennes.html /semaine-bleu-mouvaux-voitures-anciennes
+RedirectPermanent /renovation-ford-y-au-coeur-du-sujet.html /renovation-ford-y-au-coeur-du-sujet
+RedirectPermanent /rassemblement-de-bordeaux.html /rassemblement-de-bordeaux
+RedirectPermanent /bruno-et-sa-balilla.html /bruno-et-sa-balilla
+RedirectPermanent /pieds-au-plancher-renovation-ford-y.html /pieds-au-plancher-renovation-ford-y
+RedirectPermanent /retroviseur-a-genoux.html /retroviseur-a-genoux
+RedirectPermanent /voiturette-cycle-car-mini-car-origine.html /voiturette-cycle-car-mini-car-origine

@@ -1,0 +1,24 @@
+[
+    {
+        "id": "51",
+        "nom": "ORIENNE",
+        "prenom": "ORIANNE",
+        "pseudo": "orianne",
+        "mdp": "$2y$10$CYbEsnO\/pa.Mmf1GgFWsOuqhOWSygZZI9vbccaEDaV216m\/btskv2",
+        "mail": "otanguy28@gmail.com",
+        "indicPhone": "32",
+        "phone": "65656565",
+        "address_ip": "127.0.0.1",
+        "pays": "Belgique",
+        "natio": "ALBANAISE",
+        "pro": "0",
+        "entreprise": "",
+        "numeroTva": "0",
+        "siret": "0",
+        "nomcontact": "",
+        "code_confirm": "252322",
+        "active": "0",
+        "date_inscription": "0000-00-00",
+        "date_activation": "0000-00-00"
+    }
+]

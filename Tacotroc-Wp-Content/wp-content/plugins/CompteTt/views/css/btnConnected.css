@@ -1,0 +1,27 @@
+#buttonConnected{
+    z-index: 999999;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: #edc852;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.35s linear !important;
+}
+#buttonConnected a{
+   color: black;
+}
+
+#iconDeco:hover{
+    transform: rotate(180deg);
+    text-shadow: 3px 3px 4px white;
+    transition: 0.35s linear !important;
+}
+.iconsConnected{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-shadow: -3px -3px 4px white;
+}

@@ -1,0 +1,315 @@
+#chargement{
+  display:none;
+}
+
+#chargementmdp{
+  display:none;
+}
+
+
+#chargementmdpvalide{
+  display:none;
+}
+
+ .formulaireMdp{
+  width: 100% !important;
+
+
+
+  margin-top: 30px !important;
+
+}
+
+.bouton_compte{
+  background: linear-gradient(to right, #173d2d 50%, white 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  width:150px;
+  height:55px;
+  border-color:#173d2d;
+  border-width:1px;
+  color:#173d2d;
+  font-family:Raleway;
+  font-size:15px;
+  font-weight:bold;
+  letter-spacing:0.05em;
+      transition: 0.35s linear !important;
+/*   overflow:hide; */
+}
+.bouton_compte:hover{
+  color:white;
+  background-position:left bottom;
+      transition: 0.35s linear !important;
+}
+
+*{
+    box-sizing: border-box !important;
+}
+
+#nav_account
+{
+  font-size: 20px;
+	margin:0 0 20px 5px;
+  word-spacing: 28px;
+
+
+
+}
+#bar{
+font-size: 20px !important;
+border-color: #F4CB50 !important;
+border-width: 0 0 0 3px !important;
+border-style: solid !important;
+letter-spacing: 1px !important;
+padding-left: 15px !important;
+margin: 0 0 10px 20px !important;
+
+}
+progress-bar{display:inline-block;min-width:50px;}
+#header_comptes a
+{
+  line-height: 30px !important;
+  padding: 0 0 0 10px !important;
+  font-size: 20px !important;
+  color: green !important;
+}
+#header_comptes a:hover
+{
+	color:#DFDBDB !important;
+}
+
+#header_comptes progress-bar a:after {
+    content: '';
+    display: block;
+    margin: 0 5px;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+#header_comptes progress-bar a:hover:after {
+    width: 100%;
+    background: #F4CB84 !important;
+}
+
+body
+{
+ width: 100%;
+}
+ a
+{
+
+  color: green !important;
+}
+ a:hover
+{
+	color:#DFDBDB !important;
+}
+#voitures
+{
+display: flex;
+}
+#myColor
+{
+background-color: #F4CB50;
+font-family: Raleway;
+margin:10px 10px 2px 5px;
+padding:35px 5px;
+border: 2px;
+border-radius: 50px 20px
+}
+#myColor2
+{
+font-family: Raleway;
+background-color:#E5E3D6;
+margin:5px 5px 2px 5px;
+padding:25px 5px;
+border: 2px;
+border-radius: 50px 20px;
+}
+#myColor3
+{
+
+    color: black !important;
+
+
+
+
+}
+
+z
+{
+    color:white;
+}
+z2
+{
+    color:black;
+}
+.colinfo{
+
+    width:100%;
+
+}
+.colinfomodif{
+
+    width:100%;
+
+}
+
+.containerinfo
+{
+
+  width:100%%;
+
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+ flex-direction: column;
+
+   justify-content: space-around;
+}
+
+img{
+  max-width: 100%; /* This rule is very important, please do not ignore this! */
+}
+
+#canvas {
+  height: 600px;
+  width: 600px;
+  background-color: #ffffff;
+  cursor: default;
+  border: 1px solid black;
+}
+/*
+
+IMG {BORDER-RADIUS:50%;margin: auto;padding: auto;}
+.colVoiture{
+    margin:0 5px;
+    width:50%;
+
+} */
+
+.colVoitureImg{
+  margin:35px;
+    width:50%;
+
+}
+
+.containerVoiture
+{
+  padding: 0;
+  width:70%%;
+  margin:0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+   justify-content: space-around;
+}
+
+/* =================================================== */
+
+@media (max-width: 1024px){
+  .colVoitureImg{
+    margin:35px;
+      width:60%;
+
+  }
+  .colVoiture{
+      margin:0 5px;
+      width:50%;
+
+  }
+  h5{
+font-size: 12px !important;
+
+  }
+
+
+  .containerVoiture
+  {
+    padding: 0;
+    width:100%%;
+    margin:0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+     justify-content: space-around;
+  }
+
+
+@media (max-width: 426px){
+
+  IMG {BORDER-RADIUS:0%;margin: auto;padding: 0;}
+
+  .colVoitureImg{
+    padding: 0;
+    margin:  0 0 15px 0;
+    width: 100%;
+  }
+  h5{
+font-size: 15px !important;
+
+  }
+  .colVoiture{
+      padding: 0 5px;
+  margin:0 5px 0 0 ;
+      width:100%;
+
+  }
+
+
+#myColor {
+padding: 0 0 10px 0;
+  margin:0 0px 0 -5.5%;
+  font-size: 5px !important;
+  width: 100vw  !important;
+  border-radius: 0px 0px;
+}
+  .containerVoiture
+  {
+    font-size: 1px;
+
+    padding:0 0 0 0   ;
+    width:100%;
+    margin:0 0 0 0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column-reverse;
+  justify-content: space-around;
+  }
+  #header_comptes a
+  {
+padding: 0 0 0 10px !important;
+margin:  0 0 0 0 !important;
+    font-size: 20px !important;
+    color: green !important;
+
+  }
+  #header_comptes progress-bar a:hover:after {
+      width: 100%;
+      background: #F4CB84 !important;
+  }
+}
+
+
+}
